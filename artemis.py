@@ -24,7 +24,7 @@ adjacency_list = parse_csv('adjacencies.csv')
 
 def sort_adjacency(adj_list):
     #First level sort on priority attribute
-    adj_list.sort(key=lambda x: x.priority)
+#     adj_list.sort(key=lambda x: x.priority)
 
     for i in adj_list:
         if i.priority == 1:
